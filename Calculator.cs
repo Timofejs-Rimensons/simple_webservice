@@ -15,7 +15,7 @@ public class Calculator
     }
 
     [Function("Calculator")]
-    public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "")] HttpRequest req)
+    public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
     {
         _logger.LogInformation("C# HTTP trigger function processed a request.");
         return new OkObjectResult("Welcome to Azure Functions!");

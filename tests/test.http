@@ -1,11 +1,11 @@
 ### GET request to Calculator
-GET http://localhost:7071/api/Calculator
+GET http://localhost:7071/api/calculator
 Accept: application/json
 
 ###
 
 ### POST request to Calculator
-POST http://localhost:7071/api/Calculator
+POST http://localhost:7071/api/calculator
 Content-Type: application/json
 
 {
