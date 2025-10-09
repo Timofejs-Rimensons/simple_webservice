@@ -1,0 +1,8 @@
+POST http://localhost:7071/api/calculator/json
+Content-Type: application/json
+
+{
+    "operation": "mul",
+    "a": 5,
+    "b": 3
+}

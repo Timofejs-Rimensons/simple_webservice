@@ -1,0 +1,13 @@
+### GET request to Calculator
+GET http://localhost:7071/api/Calculator
+Accept: application/json
+
+###
+
+### POST request to Calculator
+POST http://localhost:7071/api/Calculator
+Content-Type: application/json
+
+{
+    "name": "TestUser"
+}
