@@ -1,8 +1,0 @@
-POST fa-trimensons.azurewebsites.net/calculator/json
-Content-Type: application/json
-
-{
-    "operation": "mul",
-    "a": 5,
-    "b": 3
-}

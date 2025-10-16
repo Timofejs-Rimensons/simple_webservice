@@ -5,12 +5,11 @@ using Microsoft.Extensions.Logging;
 
 namespace CTAI.trimensons;
 
-public class CalculationRequestJson
-
+public class DemoFunc
 {
-    private readonly ILogger<CalculationRequest> _logger;
+    private readonly ILogger<DemoFunc> _logger;
 
-    public CalculationRequestJson(ILogger<CalculationRequest> logger)
+    public DemoFunc(ILogger<DemoFunc> logger)
     {
         _logger = logger;
     }
