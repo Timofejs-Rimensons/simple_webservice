@@ -1,0 +1,8 @@
+POST fa-trimensons-b7e3fca2hbayfjfn.francecentral-01.azurewebsites.net/api/calculator/json
+Content-Type: application/json
+
+{
+    "operation": "mul",
+    "a": 8888,
+    "b": 3
+}

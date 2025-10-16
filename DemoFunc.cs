@@ -20,6 +20,10 @@ public class DemoFunc
 
     {
         var request = await req.ReadFromJsonAsync<CalculationRequest>();
+        if (request == null)
+        {
+            return new BadRequestObjectResult("Invalid request body");
+        }
         var calc = new CalculationResult(request.A, request.B, request.Operation);
         _logger.LogInformation("Sum function processed a request.");
         return new OkObjectResult(new Dictionary<string, object>
